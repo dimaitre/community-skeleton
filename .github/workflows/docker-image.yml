@@ -31,4 +31,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKER_HUB_USERNAME }}/uvdesk:latest
+            ${{ secrets.DOCKER_USER }}/uvdesk:latest
